@@ -22,25 +22,29 @@
 
 <body>
 
+    <!-- TODO RESPONSIVE -->
     <header>
-        <img src="logo.png" alt="logo" width="350px">
-    </header>
+        <img src="logo.png" alt="logo" width="200px">
 
-    <div class="navegation">
 
-        <nav>
+        <nav class="navegation">
             <ul class="container-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Book</a></li>
-                <li><a href="book.html">About</a></li>
-                <li><a href="aboutus.html">Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#book">Book</a></li>
+                <li><a href="#cardmenu">Menu</a></li>
+                <li><a href="#special">Special Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Contact us</a></li>
             </ul>
         </nav>
 
-    </div>
 
 
-    <main class="container-main">
+    </header>
+
+
+
+    <main class="container-main" id="book">
         <div class="container-article">
             <section>
                 <article>
@@ -63,7 +67,7 @@
 
 
     <!-- ORDER -->
-    <div class="cards">
+    <div class="cards" id="cardmenu">
         <div class="card">
             <div class="card-img">
                 <img src="Spinach and Cheese Gözleme.jpg" alt="gozleme">
@@ -73,7 +77,8 @@
                 <h2>Spinach and Cheese Gözleme</h2>
             </div>
             <div class="card-description">
-                <p>A Turkish flatbread filled with spinach and feta cheese, grilled to perfection, served with yogurt and cucumber dip.</p>
+                <p>A Turkish flatbread filled with spinach and feta cheese, grilled to perfection, served with yogurt
+                    and cucumber dip.</p>
                 <h3>$8</h3>
 
             </div>
@@ -89,7 +94,8 @@
                 <h2>Döner Kebab Wrap</h2>
             </div>
             <div class="card-description">
-                <p>Thinly sliced, seasoned beef or chicken served in a warm flatbread with lettuce, tomatoes, onions, and yogurt sauce.</p>
+                <p>Thinly sliced, seasoned beef or chicken served in a warm flatbread with lettuce, tomatoes, onions,
+                    and yogurt sauce.</p>
                 <h3>$10</h3>
             </div>
             <button>Order Delivery</button>
@@ -137,7 +143,8 @@
                 <h2>Caprese Sandwich</h2>
             </div>
             <div class="card-description">
-                <p> Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze on ciabatta bread, served with a side salad.</p>
+                <p> Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze on ciabatta bread, served with a
+                    side salad.</p>
                 <h3>$13</h3>
 
             </div>
@@ -152,7 +159,7 @@
         <h1>ABOUT US</h1>
     </div>
 
-    <div class="about-us">
+    <div class="about-us" id="about">
         <div class="imgabout">
             <img src="rustico.jpeg" alt="restaurant" width="350px" height="100%">
         </div>
@@ -165,8 +172,11 @@
             <p>
                 Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with
                 a modern twist chefs draw inspiration from Italian, Greek, and Turkish culture.
-                Little Lemon is owned by two Italian brothers Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant.  
-                To craft the menu, Mario relies on family recipes and his experience as a chef in Italy.Adrian does all the marketing for the restaurant and led the effort to expand the menu beyond classic Italian to incorporate additional cuisines from the Mediterranean region.
+                Little Lemon is owned by two Italian brothers Mario and Adrian, who moved to the United States to pursue
+                their shared dream of owning a restaurant.
+                To craft the menu, Mario relies on family recipes and his experience as a chef in Italy.Adrian does all
+                the marketing for the restaurant and led the effort to expand the menu beyond classic Italian to
+                incorporate additional cuisines from the Mediterranean region.
             </p>
         </div>
 
@@ -179,7 +189,7 @@
     <!-- MENU -->
 
 
-    <div class="menu">
+    <div class="menu" id="special">
         <h1>Menu</h1>
     </div>
     <div class="ll">SPECIAL</div>
@@ -223,7 +233,7 @@
                 </div>
                 <div class="menu-description">
                     <p>
-                        A  Turkish dish featuring stuffed eggplant with caramelized
+                        A Turkish dish featuring stuffed eggplant with caramelized
                         onions, tomatoes, and garlic, accompanied by a delicate quinoa pilaf.
 
                     </p>
@@ -276,9 +286,9 @@
     <!-- FOOTER -->
 
     <footer>
-        <div>
+        <a href="#">
             <img src="footer.png" alt="footer" width="30px" height="40px">
-        </div>
+        </a>
         <div class="copyfooter">
             <p class="copy-footer">🍋 © Copyright Little Lemon</p>
         </div>
